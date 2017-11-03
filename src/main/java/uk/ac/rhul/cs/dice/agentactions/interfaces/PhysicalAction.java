@@ -8,4 +8,9 @@ public interface PhysicalAction<T extends Enum<?>> extends EnvironmentalAction<T
     public default boolean isGenericTypeConsistent() {
 	return EnvironmentalActionType.PHYSICAL.equals(getGenericType());
     }
+    
+    @Override
+    public default EnvironmentalActionType getGenericType() {
+	return EnvironmentalActionType.PHYSICAL;
+    }
 }

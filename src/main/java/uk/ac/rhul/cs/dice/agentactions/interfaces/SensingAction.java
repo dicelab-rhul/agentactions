@@ -8,4 +8,9 @@ public interface SensingAction<T extends Enum<?>> extends EnvironmentalAction<T>
     public default boolean isGenericTypeConsistent() {
 	return EnvironmentalActionType.SENSING.equals(getGenericType());
     }
+    
+    @Override
+    public default EnvironmentalActionType getGenericType() {
+        return EnvironmentalActionType.SENSING;
+    }
 }
