@@ -5,6 +5,15 @@ import java.util.Set;
 
 import uk.ac.rhul.cs.dice.agentactions.enums.EnvironmentalActionType;
 
+/**
+ * 
+ * Interface for communicative actions. It extends {@link EnvironmentalAction}.
+ * 
+ * @author cloudstrife9999
+ *
+ * @param <T> an enumeration.
+ * 
+ */
 public interface CommunicativeAction<T extends Enum<?>> extends EnvironmentalAction<T> {
     
     @Override
@@ -17,6 +26,13 @@ public interface CommunicativeAction<T extends Enum<?>> extends EnvironmentalAct
         return EnvironmentalActionType.COMMUNICATIVE;
     }
     
+    /**
+     * 
+     * Returns a {@link Set} of IDs, each one being the {@link String} ID of each of the recipients of the communication.
+     * 
+     * @return a {@link Set} of {@link String} IDs.
+     * 
+     */
     public default Set<String> getRecipientsIds() {
 	return Collections.emptySet();
     }
