@@ -6,14 +6,16 @@ import uk.ac.rhul.cs.dice.agentcommon.interfaces.Action;
 
 /**
  * 
- * Interface for a {@link Goal} with (possibly) sub-goals and with (possibly) multiple {@link Plan}s for this {@link Goal}.
+ * Interface for a {@link Goal} with (possibly) sub-goals and with (possibly) multiple {@link Plan}s for this {@link Goal}.<br/><br/>
+ * Extends {@link Goal}.<br/><br/>
+ * Known implementations: none.
  * 
  * @author cloudstrife9999
  *
  * @param <T> a subclass of {@link Action}, characterizing the {@link Action}s of the {@link Plan}s.
  * 
  */
-public interface ComplexGoal<T extends Action<?>> {
+public interface ComplexGoal<T extends Action<?>> extends Goal {
 
     /**
      * 

@@ -4,7 +4,9 @@ import uk.ac.rhul.cs.dice.agentcommon.interfaces.Action;
 
 /**
  * 
- * Interface for a {@link Goal} without sub-goals and with a single {@link Plan}.
+ * Interface for a {@link Goal} without sub-goals and with a single {@link Plan}.<br/><br/>
+ * Extends {@link Goal}.<br/><br/>
+ * Known implementations: none.
  * 
  * @author cloudstrife9999
  *

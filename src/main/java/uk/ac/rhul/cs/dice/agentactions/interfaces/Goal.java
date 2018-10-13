@@ -4,7 +4,8 @@ package uk.ac.rhul.cs.dice.agentactions.interfaces;
  * 
  * Interface for goals.<br /><br />
  * 
- * Known sub-interfaces: {@link SimpleGoal}, {@link ComplexGoal}.
+ * Known sub-interfaces: {@link SimpleGoal}, {@link ComplexGoal}.<br/><br/>
+ * Known implementations: none.
  * 
  * @author cloudstrife9999
  *

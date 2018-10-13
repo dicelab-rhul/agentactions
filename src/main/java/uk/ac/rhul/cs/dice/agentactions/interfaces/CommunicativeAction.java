@@ -7,7 +7,9 @@ import uk.ac.rhul.cs.dice.agentactions.enums.EnvironmentalActionType;
 
 /**
  * 
- * Interface for communicative actions. It extends {@link EnvironmentalAction}.
+ * Interface for communicative actions.<br/><br/>
+ * Extends {@link EnvironmentalAction}.<br/><br/>
+ * Known implementations: none.
  * 
  * @author cloudstrife9999
  *
