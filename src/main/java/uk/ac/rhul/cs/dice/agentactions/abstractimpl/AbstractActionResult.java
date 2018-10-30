@@ -10,7 +10,7 @@ import uk.ac.rhul.cs.dice.agentactions.interfaces.Result;
  * @author cloudstrife9999
  *
  */
-public class AbstractActionResult implements Result {
+public abstract class AbstractActionResult implements Result {
     private ActionResult type;
     
     /**
